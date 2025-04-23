@@ -1,0 +1,249 @@
+.main-color {
+  background-color: #37517e;
+}
+.main-color3 {
+  background-color: #f5f6f8;
+}
+.main-color2 {
+  color: #37517e;
+}
+
+.collapse ul li a:hover {
+  color: #0dcaf0 !important;
+}
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #0dcaf0; /* or your custom color */
+}
+
+.snd-accor {
+  width: 80%;
+}
+.hover-text:hover {
+  color: #0dcaf0;
+  cursor: pointer;
+}
+
+.widt-role {
+  width: 90px;
+  font-size: 14px !important;
+  padding: 1px;
+  font-weight: 400;
+  position: absolute;
+  right: 0;
+  top: -33px;
+}
+
+/* Remove light blue background globally */
+.accordion-button:not(.collapsed),
+.btn:focus,
+.btn:active,
+.form-control:focus,
+.nav-link.active,
+.page-link:focus,
+.page-item.active .page-link {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.gray {
+  width: 150px;
+  height: 1.5px;
+  background-color: #aeafb0;
+  position: relative;
+  margin: auto;
+}
+.blue {
+  width: 60px;
+  height: 3px;
+  background-color: #0dcaf0;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.hoveraccordion:hover {
+  color: #08a2c1;
+}
+.bool {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translateY(-80px);
+  -webkit-transform: translateY(-80px);
+  -moz-transform: translateY(-80px);
+  -ms-transform: translateY(-80px);
+  -o-transform: translateY(-80px);
+}
+.card {
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+.card:hover {
+  transform: translateY(-12px);
+  -webkit-transform: translateY(-12px);
+  -moz-transform: translateY(-12px);
+  -ms-transform: translateY(-12px);
+  -o-transform: translateY(-12px);
+}
+
+.animation-img {
+  animation: move 1.5s linear infinite alternate;
+  -webkit-animation: move 1.5s linear infinite alternate;
+}
+.progress-line {
+  width: 100%;
+  background-color: #37517e;
+  height: 8px;
+}
+.overfl {
+  overflow: hidden;
+}
+.roundeed {
+  position: relative;
+}
+.card-imge {
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+.card-imge:hover {
+  scale: 1.05;
+}
+.img-flow {
+  overflow: hidden;
+}
+.img-flow:hover .div-flop {
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+.div-flop {
+  opacity: 0.8;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transform: translateY(90px);
+  -webkit-transform: translateY(90px);
+  -moz-transform: translateY(90px);
+  -ms-transform: translateY(90px);
+  -o-transform: translateY(90px);
+}
+
+.bg-imge {
+  background: linear-gradient(
+      to right,
+      rgb(55, 81, 126, 0.5),
+      rgba(55, 81, 126, 0.5)
+    ),
+    url(https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp)
+      fixed 100%;
+}
+.hover-btn button:hover {
+  color: white !important;
+}
+
+.hover-ion {
+  width: 30px;
+  display: flex;
+  height: 30px;
+  background-color: #e4dddd !important;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  clip-path: circle();
+}
+
+.main-hover:hover {
+  color: white !important;
+}
+
+.hover-ion {
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+.hover-ion:hover {
+  background-color: #0dcaf0 !important;
+  color: white;
+}
+
+.imge-zoom {
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.imge-zoom:hover {
+  scale: 1.1;
+  cursor: pointer;
+  background-color: #0dcaf0;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #0dcaf0 !important; /* Makes dots black */
+  opacity: 1; /* Makes sure they're visible */
+  height: 12px;
+  width: 12px;
+  position: relative;
+  bottom: -80px;
+  clip-path: circle();
+}
+.carousel-indicators .active {
+  background-color: #c9c8c8 !important; /* Dark gray for active dot */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* Inverts white to black */
+}
+.set-img {
+  width: 150px;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+  }
+}
+
+@media (max-width: 992px) {
+  .reverse {
+    flex-direction: column-reverse;
+  }
+}
