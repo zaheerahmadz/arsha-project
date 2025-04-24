@@ -16,6 +16,9 @@ input:focus {
   box-shadow: none;
   border: 1px solid #0dcaf0; /* or your custom color */
 }
+.last-input {
+  height: 250px;
+}
 
 .snd-accor {
   width: 80%;
@@ -23,6 +26,18 @@ input:focus {
 .hover-text:hover {
   color: #0dcaf0;
   cursor: pointer;
+}
+.ion-bg {
+  background-color: #f1f9fd;
+  padding: 10px 12px;
+  clip-path: circle();
+}
+.ion-bg:hover {
+  background-color: #0dcaf0;
+  color: white !important;
+}
+.custom-map {
+  height: 250px;
 }
 
 .widt-role {
@@ -32,7 +47,7 @@ input:focus {
   font-weight: 400;
   position: absolute;
   right: 0;
-  top: -33px;
+  top: -32px;
 }
 
 /* Remove light blue background globally */
