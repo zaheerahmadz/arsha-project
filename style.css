@@ -255,6 +255,12 @@ input:focus {
 .set-img {
   width: 150px;
 }
+@media (hover: none) and (pointer: coarse) {
+  /* This will remove hover styles on touch devices */
+  .your-hover-class:hover {
+    all: unset; /* Or override specific hover styles */
+  }
+}
 
 @keyframes move {
   from {
